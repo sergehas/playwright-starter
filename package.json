@@ -2,7 +2,14 @@
   "name": "e2e-playwright",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "pretty": "npx prettier **/* --write --ignore-unknown",
+    "clean": "rimraf  node_modules",
+    "e2e": "npx playwright test",
+    "e2e:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report",
+    "record": "npx playwright codegen"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
