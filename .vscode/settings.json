@@ -3,7 +3,9 @@
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
     "**/node_modules/**": true,
-    "**/dist/**": true
+    "**/dist/**": true,
+    "**/playwright-report/**": true,
+    "**/test-results/**": true
   },
   "search.exclude": {
     "**/node_modules": true,
